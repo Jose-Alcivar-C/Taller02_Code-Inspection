@@ -37,7 +37,9 @@
 				<artifactId>maven-pmd-plugin</artifactId>
 				<version>3.13.0</version>
 				<configuration>
-					<rulesets> <ruleset>JoseAlcivar_ruleset.xml</ruleset>
+					<rulesets> 
+						<ruleset>JoseAlcivar_ruleset.xml</ruleset>
+						<ruleset>WorkshopJoseAlcivar.xml</ruleset>
 					</rulesets>
 				</configuration>
 			</plugin>
